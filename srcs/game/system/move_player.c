@@ -6,7 +6,7 @@
 /*   By: rnakai <rnakai@student.42tokyo.jp>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/12 12:40:01 by rnakai            #+#    #+#             */
-/*   Updated: 2020/12/09 11:39:50 by rnakai           ###   ########.fr       */
+/*   Updated: 2021/03/18 10:27:57 by rnakai           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,7 +41,7 @@ static int	is_there_wall_collision_inside_(float move_step)
 	if (move_step < 0)
 		minus_flag = -1;
 	i = 1;
-	while (i <= abs(move_step))
+	while (i <= fabs(move_step))
 	{
 		to_check_x = g_player.x + minus_flag *
 			i * cos(g_player.rotation_angle + g_player.side_angle);
