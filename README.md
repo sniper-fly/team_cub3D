@@ -12,7 +12,11 @@ rnakai kkamashi
 
 # How it works
 
-Warinig: Our cub3D is designed to work only in Linux.
+Warning: Our cub3D is designed to work only in Linux.  
+
+You need to install dependencies.  
+e.g. sudo apt-get install gcc make xorg libxext-dev libbsd-dev (Debian/Ubuntu)  
+(more info:https://github.com/42Paris/minilibx-linux)  
 
 1. Type ```make``` on the directory where you can see Makefile.
 2. Type ```./cub3D review/game_mode.cub``` to start game.
