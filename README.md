@@ -1,4 +1,5 @@
 # team_cub3D
+![cub3d](https://user-images.githubusercontent.com/50983271/112707908-1de97100-8ef2-11eb-9a8c-625c9933c377.gif)
 
 This project is created in order to complete cub3D, one of the tasks from 42Tokyo.
 The concept is to comlete it as a team although this task is recommended to work on by oneself.
